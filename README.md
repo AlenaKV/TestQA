@@ -106,6 +106,20 @@ print(metrics_fromdb)
 
 ![Screenshot from DB](https://github.com/AlenaKV/TestQA/blob/main/Images/DB.png)
 
+---
+## Создание и чтение yaml файла
+```
+data2 = {
+    "metric": {
+        "std": 10,
+        "var": 10,
+    }
+}
+with open("test.yaml", "w") as file:
+    yaml.dump(data2, file)
 
+with open("test.yaml") as file:
+    data1 = yaml.safe_load(file)
+```
 
 
