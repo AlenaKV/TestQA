@@ -37,10 +37,16 @@ for i in range(len(x_coordinates)):
     lenghtvec.append(math.sqrt((x_coordinates[i]-centrX)**2+(y_coordinates[i]-centrY)**2))
 ```
 ---
-Вывод стандарного отклонения и дисперсии:
+Отправка стандарного отклонения и дисперсии в базу данных `Metrics`:
 ```
-print('Дисперсия: ', np.var(lenghtvec))
-  print('Стандартное отклонение: ' ,np.std(lenghtvec))
+cursor.execute('INSERT INTO Metrics (variance, standard_deviation) VALUES (?, ?)', (np.var(lenghtvec), np.std(lenghtvec)))
+```
+---
+Запрос данных из базы данных `Metrics`:
+```
+cursor.execute('SELECT * FROM Metrics')
+metrics = cursor.fetchall()
+print(metrics)
 ```
 
 
