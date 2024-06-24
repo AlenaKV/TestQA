@@ -55,11 +55,11 @@ print(metrics_fromdb)
 
 Входное изображение:
 
-![test_image](https://github.com/AlenaKV/TestQA/blob/main/test_picture.jpg)
+![test_image](https://github.com/AlenaKV/TestQA/blob/main/Images/test_picture.jpg)
 
 Выходное изображение с отображением найденной точки центра пятна:
 
-![test_image_result](https://github.com/AlenaKV/TestQA/blob/main/test_image_result.png)
+![test_image_result](https://github.com/AlenaKV/TestQA/blob/main/Images/test_image_result.png)
 
 #### Данные дисперсии и стандартного отклонения длины радиуса пятна:
 
@@ -72,11 +72,11 @@ print(metrics_fromdb)
 
 Входное изображение:
 
-![test_image](https://github.com/AlenaKV/TestQA/blob/main/test_picture2.jpg)
+![test_image](https://github.com/AlenaKV/TestQA/blob/main/Images/test_picture2.jpg)
 
 Выходное изображение с отображением найденной точки центра пятна:
 
-![test_image_result](https://github.com/AlenaKV/TestQA/blob/main/test_image_result2.png)
+![test_image_result](https://github.com/AlenaKV/TestQA/blob/main/Images/test_image_result2.png)
 
 #### Данные дисперсии и стандартного отклонения длины радиуса пятна:
 
@@ -89,11 +89,11 @@ print(metrics_fromdb)
 
 Входное изображение:
 
-![test_image](https://github.com/AlenaKV/TestQA/blob/main/test_picture3.jpg)
+![test_image](https://github.com/AlenaKV/TestQA/blob/main/Images/test_picture3.jpg)
 
 Выходное изображение с отображением найденной точки центра пятна:
 
-![test_image_result](https://github.com/AlenaKV/TestQA/blob/main/test_image_result3.png)
+![test_image_result](https://github.com/AlenaKV/TestQA/blob/main/Images/test_image_result3.png)
 
 #### Данные дисперсии и стандартного отклонения длины радиуса пятна:
 
@@ -102,7 +102,9 @@ print(metrics_fromdb)
 Стандартное отклонение:  0.7589680883387079
 
 ---
-## Результаты заполнения базы данных `Metrics`:
+### Результаты заполнения базы данных `Metrics`:
+
+![Screenshot from DB](https://github.com/AlenaKV/TestQA/blob/main/Images/DB.png)
 
 
 
