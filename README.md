@@ -45,8 +45,9 @@ cursor.execute('INSERT INTO Metrics (variance, standard_deviation) VALUES (?, ?)
 Запрос данных из базы данных `Metrics`:
 ```
 cursor.execute('SELECT * FROM Metrics')
-metrics = cursor.fetchall()
-print(metrics)
+metrics_fromdb = cursor.fetchall()
+print(metrics_fromdb)
+
 ```
 
 
