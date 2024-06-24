@@ -51,7 +51,54 @@ print(metrics_fromdb)
 
 # Примеры тестов и результаты
 ---
+Тест №1
+
 Входное изображение:
 
+![test_image](https://github.com/AlenaKV/TestQA/blob/main/test_picture.jpg)
+
+Выходное изображение с отображением найденной точки центра пятна:
+
+![test_image_result](https://github.com/AlenaKV/TestQA/blob/main/test_image_result.png)
+
+#### Данные дисперсии и стандартного отклонения длины радиуса пятна:
+
+Дисперсия:  0.5199182934481335 
+
+Стандартное отклонение:  0.7210535995667267
+
+---
+Тест №2
+
+Входное изображение:
+
+![test_image](https://github.com/AlenaKV/TestQA/blob/main/test_picture2.jpg)
+
+Выходное изображение с отображением найденной точки центра пятна:
+
+![test_image_result](https://github.com/AlenaKV/TestQA/blob/main/test_image_result2.png)
+
+#### Данные дисперсии и стандартного отклонения длины радиуса пятна:
+
+Дисперсия:  14.24133821280005
+
+Стандартное отклонение:  3.7737697614984476
+
+---
+Тест №3
+
+Входное изображение:
+
+![test_image](https://github.com/AlenaKV/TestQA/blob/main/test_picture3.jpg)
+
+Выходное изображение с отображением найденной точки центра пятна:
+
+![test_image_result](https://github.com/AlenaKV/TestQA/blob/main/test_image_result3.png)
+
+#### Данные дисперсии и стандартного отклонения длины радиуса пятна:
+
+Дисперсия:  0.5760325591165127
+
+Стандартное отклонение:  0.7589680883387079
 
 
